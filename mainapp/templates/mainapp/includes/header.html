@@ -1,0 +1,19 @@
+{% load static %}
+
+
+<div class="header clearfix">
+				<!--<a href="/" class="logo"></a>-->
+				<a href="{% url 'index' %}" class="logo"></a>
+				<ul class="menu">
+					<!--<li><a href="/">домой</a></li>-->
+					<li><a href="{% url 'index' %}">домой</a></li>
+					<!--<li><a href="products.html">продукты</a></li>
+					<li><a href="contact.html" class="active">контакты</a></li>-->
+					<!--<li><a href="{% url 'products' %}" class="active">продукты</a></li>
+					<li><a href="{% url 'contacts' %}" class="active">контакты</a></li>-->
+					<li><a href="{% url 'products' %}" >продукты</a></li>
+					<li><a href="{% url 'contacts' %}" >контакты</a></li>
+				</ul>
+				<a href="#" class="search"></a>
+                <a href="#" class="basket"></a>
+</div>
