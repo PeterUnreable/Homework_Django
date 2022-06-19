@@ -11,7 +11,7 @@ def main(request):
     return render(request, 'mainapp/index.html', content)
 
 def index(request):
-    products = Product.objects.all[:2]
+    products = Product.objects.all()[:2]
     list_params = {'no': 'Vau,',
                    'p1': True,
                     'info': False
