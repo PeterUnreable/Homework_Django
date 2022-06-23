@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import ProductCategory, Product
-
+from django.templatetags.static import static
 
 # Create your views here.
 
